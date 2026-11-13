@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Jhonatan Rodriguez Custodio, AI Engineer, Azure and Generative AI">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b14"/><stop offset="1" stop-color="#0f1b33"/>
+    </linearGradient>
+    <linearGradient id="tx" x1="0" x2="1" spreadMethod="reflect">
+      <stop offset="0" stop-color="#38bdf8"/><stop offset=".5" stop-color="#818cf8"/><stop offset="1" stop-color="#c084fc"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-.6 0;.6 0;-.6 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#fff" stroke-opacity=".045"/>
+    </pattern>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+    <clipPath id="card"><rect width="1200" height="320" rx="20"/></clipPath>
+    <clipPath id="c1"><rect x="92" y="232" height="32" width="0"><animate attributeName="width" values="0;451;451;0;0" keyTimes="0;.1;.22;.25;1" dur="16s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c2"><rect x="92" y="232" height="32" width="0"><animate attributeName="width" values="0;451;451;0;0" keyTimes="0;.1;.22;.25;1" dur="16s" begin="4s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c3"><rect x="92" y="232" height="32" width="0"><animate attributeName="width" values="0;405;405;0;0" keyTimes="0;.1;.22;.25;1" dur="16s" begin="8s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c4"><rect x="92" y="232" height="32" width="0"><animate attributeName="width" values="0;440;440;0;0" keyTimes="0;.1;.22;.25;1" dur="16s" begin="12s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+  <style>
+    .sans{font-family:-apple-system,"Segoe UI",Ubuntu,Helvetica,Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    .ring{animation:pulse 3s ease-in-out infinite}
+    .r2{animation-delay:.5s}.r3{animation-delay:1s}.r4{animation-delay:1.5s}.r5{animation-delay:2s}.r6{animation-delay:2.5s}
+    @keyframes pulse{0%,100%{stroke-opacity:.35}50%{stroke-opacity:1}}
+    .orbit{transform-origin:975px 160px;animation:spin 40s linear infinite}
+    @keyframes spin{to{transform:rotate(360deg)}}
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <g filter="url(#blur)" opacity=".55">
+      <circle cx="200" cy="40" r="120" fill="#2563eb"><animate attributeName="cx" values="200;420;200" dur="18s" repeatCount="indefinite"/></circle>
+      <circle cx="1000" cy="300" r="130" fill="#7c3aed"><animate attributeName="cx" values="1000;820;1000" dur="22s" repeatCount="indefinite"/></circle>
+    </g>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+
+    <!-- text -->
+    <text x="64" y="84" class="mono" font-size="17" fill="#38bdf8">&lt;/&gt; Hello, I'm</text>
+    <text x="62" y="146" class="sans" font-size="47" font-weight="800" fill="url(#tx)">Jhonatan Rodriguez Custodio</text>
+    <text x="64" y="194" class="sans" font-size="23" font-weight="600" fill="#e2e8f0">AI Engineer · Azure &amp; Generative AI</text>
+
+    <text x="64" y="254" class="mono" font-size="19" fill="#38bdf8">$</text>
+    <g class="mono" font-size="19" fill="#cbd5e1">
+      <text x="92" y="254" clip-path="url(#c1)">Multi-agent systems on Azure AI Foundry</text>
+      <text x="92" y="254" clip-path="url(#c2)">Multimodal RAG with traceable citations</text>
+      <text x="92" y="254" clip-path="url(#c3)">Document AI pipelines in production</text>
+      <text x="92" y="254" clip-path="url(#c4)">MCP · Agent Framework · Semantic Kernel</text>
+    </g>
+    <g fill="#38bdf8">
+      <rect y="236" width="10" height="23" x="92" opacity="0">
+        <animate attributeName="x" values="92;543;543;92;92" keyTimes="0;.1;.22;.25;1" dur="16s" begin="0s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.25;.2501;1" dur="16s" begin="0s" repeatCount="indefinite"/>
+      </rect>
+      <rect y="236" width="10" height="23" x="92" opacity="0">
+        <animate attributeName="x" values="92;543;543;92;92" keyTimes="0;.1;.22;.25;1" dur="16s" begin="4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.25;.2501;1" dur="16s" begin="4s" repeatCount="indefinite"/>
+      </rect>
+      <rect y="236" width="10" height="23" x="92" opacity="0">
+        <animate attributeName="x" values="92;497;497;92;92" keyTimes="0;.1;.22;.25;1" dur="16s" begin="8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.25;.2501;1" dur="16s" begin="8s" repeatCount="indefinite"/>
+      </rect>
+      <rect y="236" width="10" height="23" x="92" opacity="0">
+        <animate attributeName="x" values="92;532;532;92;92" keyTimes="0;.1;.22;.25;1" dur="16s" begin="12s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.25;.2501;1" dur="16s" begin="12s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- agent network -->
+    <circle class="orbit" cx="975" cy="160" r="105" fill="none" stroke="#818cf8" stroke-opacity=".35" stroke-dasharray="3 11"/>
+    <g stroke="#38bdf8" stroke-opacity=".35" stroke-width="1.5">
+      <path d="M975 160L1080 160M975 160L1027.5 251M975 160L922.5 251M975 160L870 160M975 160L922.5 69M975 160L1027.5 69"/>
+    </g>
+    <g fill="#7dd3fc">
+      <circle r="4"><animateMotion path="M975 160L1080 160" dur="2.4s" repeatCount="indefinite"/></circle>
+      <circle r="4"><animateMotion path="M1027.5 251L975 160" dur="2.4s" begin=".4s" repeatCount="indefinite"/></circle>
+      <circle r="4"><animateMotion path="M975 160L922.5 251" dur="2.4s" begin=".8s" repeatCount="indefinite"/></circle>
+      <circle r="4"><animateMotion path="M870 160L975 160" dur="2.4s" begin="1.2s" repeatCount="indefinite"/></circle>
+      <circle r="4"><animateMotion path="M975 160L922.5 69" dur="2.4s" begin="1.6s" repeatCount="indefinite"/></circle>
+      <circle r="4"><animateMotion path="M1027.5 69L975 160" dur="2.4s" begin="2s" repeatCount="indefinite"/></circle>
+    </g>
+    <g fill="#0d1424" stroke="#38bdf8" stroke-width="1.5">
+      <circle class="ring" cx="1080" cy="160" r="30"/>
+      <circle class="ring r2" cx="1027.5" cy="251" r="30"/>
+      <circle class="ring r3" cx="922.5" cy="251" r="30"/>
+      <circle class="ring r4" cx="870" cy="160" r="30"/>
+      <circle class="ring r5" cx="922.5" cy="69" r="30"/>
+      <circle class="ring r6" cx="1027.5" cy="69" r="30"/>
+    </g>
+    <g class="mono" font-size="12" fill="#e2e8f0" text-anchor="middle">
+      <text x="1080" y="164">RAG</text>
+      <text x="1027.5" y="255">Tools</text>
+      <text x="922.5" y="255">Search</text>
+      <text x="870" y="164">LLM</text>
+      <text x="922.5" y="73">MCP</text>
+      <text x="1027.5" y="73">Vision</text>
+    </g>
+    <circle cx="975" cy="160" r="44" fill="#111a33" stroke="url(#tx)" stroke-width="2.5"/>
+    <circle cx="975" cy="160" r="44" fill="none" stroke="#818cf8" stroke-width="2">
+      <animate attributeName="r" values="44;64" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values=".7;0" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="975" y="157" class="sans" font-size="15" font-weight="800" fill="#fff" text-anchor="middle">AGENT</text>
+    <text x="975" y="174" class="mono" font-size="10" fill="#94a3b8" text-anchor="middle">orchestrator</text>
+  </g>
+</svg>
