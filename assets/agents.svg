@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="Multi-agent reference architecture: user, API layer, orchestrator, three specialist agents, consolidator and human-in-the-loop approval">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b14"/><stop offset="1" stop-color="#0f1b33"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#fff" stroke-opacity=".04"/></pattern>
+  </defs>
+  <style>
+    .sans{font-family:-apple-system,"Segoe UI",Ubuntu,Helvetica,Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    .t{font-size:15px;font-weight:700;fill:#e2e8f0}
+    .s{font-size:12px;fill:#94a3b8}
+    .flow{fill:none;stroke:#38bdf8;stroke-opacity:.6;stroke-width:2;stroke-dasharray:6 8;animation:dash 1s linear infinite}
+    @keyframes dash{to{stroke-dashoffset:-14}}
+    .box{fill:#0b1220;stroke-width:1.6}
+    .glow{animation:glow 2.6s ease-in-out infinite}
+    @keyframes glow{0%,100%{stroke-opacity:.5}50%{stroke-opacity:1}}
+  </style>
+
+  <rect width="1200" height="400" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="400" rx="20" fill="url(#grid)"/>
+  <text x="70" y="40" class="mono" font-size="13" fill="#64748b">// reference architecture · multi-agent pattern</text>
+
+  <!-- connectors -->
+  <path class="flow" d="M180 200H216M346 200H382M944 200H980"/>
+  <path class="flow" d="M532 200C552 200 548 80 568 80M532 200H568M532 200C552 200 548 320 568 320"/>
+  <path class="flow" d="M758 80C778 80 774 200 794 200M758 200H794M758 320C778 320 774 200 794 200"/>
+
+  <!-- packets (drawn under the boxes) -->
+  <g fill="#7dd3fc">
+    <circle r="5"><animateMotion dur="6s" repeatCount="indefinite" path="M180 200H532C552 200 548 80 568 80H758C778 80 774 200 794 200H980"/></circle>
+    <circle r="5"><animateMotion dur="6s" begin="2s" repeatCount="indefinite" path="M180 200H980"/></circle>
+    <circle r="5"><animateMotion dur="6s" begin="4s" repeatCount="indefinite" path="M180 200H532C552 200 548 320 568 320H758C778 320 774 200 794 200H980"/></circle>
+  </g>
+
+  <!-- nodes -->
+  <g text-anchor="middle" class="sans">
+    <rect class="box" x="70" y="162" width="110" height="76" rx="14" stroke="#94a3b8"/>
+    <text class="t" x="125" y="197">User</text><text class="s" x="125" y="217">Analyst</text>
+
+    <rect class="box" x="216" y="162" width="130" height="76" rx="14" stroke="#38bdf8"/>
+    <text class="t" x="281" y="197">API layer</text><text class="s" x="281" y="217">FastAPI · App Service</text>
+
+    <rect class="box glow" x="382" y="156" width="150" height="88" rx="14" stroke="#c084fc" stroke-width="2.2"/>
+    <text class="t" x="457" y="197">Orchestrator</text><text class="s" x="457" y="217">Azure AI Foundry</text>
+
+    <rect class="box" x="568" y="45" width="190" height="70" rx="14" stroke="#818cf8"/>
+    <text class="t" x="663" y="77">Specialist agent</text><text class="s" x="663" y="97">Internal data · RAG</text>
+
+    <rect class="box" x="568" y="165" width="190" height="70" rx="14" stroke="#818cf8"/>
+    <text class="t" x="663" y="197">Specialist agent</text><text class="s" x="663" y="217">Web search grounding</text>
+
+    <rect class="box" x="568" y="285" width="190" height="70" rx="14" stroke="#818cf8"/>
+    <text class="t" x="663" y="317">Specialist agent</text><text class="s" x="663" y="337">OpenAPI tools</text>
+
+    <rect class="box" x="794" y="162" width="150" height="76" rx="14" stroke="#38bdf8"/>
+    <text class="t" x="869" y="197">Consolidator</text><text class="s" x="869" y="217">Rated report</text>
+
+    <rect class="box glow" x="980" y="162" width="150" height="76" rx="14" stroke="#34d399" stroke-width="2.2"/>
+    <text class="t" x="1055" y="197" font-size="14">Human-in-the-Loop</text><text class="s" x="1055" y="217">Approve before acting</text>
+
+    <text x="600" y="384" class="mono" font-size="12.5" fill="#64748b">code prepares the case file · agents apply judgment · irreversible actions wait for a human</text>
+  </g>
+</svg>
