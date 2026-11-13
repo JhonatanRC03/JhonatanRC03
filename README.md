@@ -66,8 +66,9 @@ Enterprise solutions delivered at **Gestión de Sistemas** (Jan 2025 – present
 | Project | What it does | Key stack |
 |---|---|---|
 | **Risk Agents** | An orchestrator splits credit-risk evaluation across agents for history, macro/sector context (web grounding) and financial ratios (OpenAPI tools), then consolidates a rated report. | AI Foundry · Azure OpenAI · Functions · FastAPI · React |
+| **Corporate Credit Risk Agents** | A code-driven orchestrator coordinates six agents (financial, sector, prior reports, charts, report writer and validator) to produce a corporate-banking credit report, exportable to Word and PowerPoint. | Microsoft Foundry · Agent Framework · MCP · AI Search · Document Intelligence · Cosmos DB |
 | **Dispute Management Agents** | Six sequential agents automate card disputes from intake to resolution, with a mandatory human approval gate before chargebacks. | AI Foundry Hosted Agents · Agent Framework · Container Apps |
-| **Transactional Fraud** *(in development)* | An analyst agent weighs customer-behavior evidence and issues a risk verdict justified factor by factor for human review. | AI Foundry · Container Apps · Cosmos DB · Entra ID |
+| **Transactional Fraud** | An analyst agent weighs customer-behavior evidence and issues a risk verdict justified factor by factor for human review. | AI Foundry · Container Apps · Cosmos DB · Entra ID |
 
 </details>
 
