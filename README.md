@@ -135,19 +135,15 @@ Enterprise solutions delivered at **Gestión de Sistemas** (Jan 2025 – present
 
 ## 🏅 Microsoft certifications
 
-<p align="center">
-  <a href="https://learn.microsoft.com/api/credentials/share/es-es/JhonatanRodriguezCustodio-7265/D800CFD829806D6D?sharingId=741F47D64D5A545A"><img alt="AI-103 Azure AI Apps and Agents Developer Associate" src="https://img.shields.io/badge/AI--103-Azure%20AI%20Apps%20%26%20Agents%20Developer-0078D4?style=for-the-badge&logo=microsoft&logoColor=white&labelColor=0B1220"></a>
-  <a href="https://learn.microsoft.com/api/credentials/share/es-es/JhonatanRodriguezCustodio-7265/8AA0D450EA13F82D?sharingId=741F47D64D5A545A"><img alt="AI-102 Azure AI Engineer Associate" src="https://img.shields.io/badge/AI--102-Azure%20AI%20Engineer-0078D4?style=for-the-badge&logo=microsoft&logoColor=white&labelColor=0B1220"></a>
-  <a href="https://learn.microsoft.com/api/credentials/share/es-es/JhonatanRodriguezCustodio-7265/1658F7EFBA648D3E?sharingId=741F47D64D5A545A"><img alt="DP-100 Azure Data Scientist Associate" src="https://img.shields.io/badge/DP--100-Azure%20Data%20Scientist-0078D4?style=for-the-badge&logo=microsoft&logoColor=white&labelColor=0B1220"></a>
-  <br/>
-  <a href="https://learn.microsoft.com/api/credentials/share/es-es/JhonatanRodriguezCustodio-7265/96D3C54F9F20FAE5?sharingId=741F47D64D5A545A"><img alt="AB-731 AI Transformation Leader" src="https://img.shields.io/badge/AB--731-AI%20Transformation%20Leader-8B5CF6?style=for-the-badge&logo=microsoft&logoColor=white&labelColor=0B1220"></a>
-  <a href="https://learn.microsoft.com/api/credentials/share/es-es/JhonatanRodriguezCustodio-7265/BA8640C8A29E6650?sharingId=741F47D64D5A545A"><img alt="AB-730 AI Business Professional" src="https://img.shields.io/badge/AB--730-AI%20Business%20Professional-8B5CF6?style=for-the-badge&logo=microsoft&logoColor=white&labelColor=0B1220"></a>
-  <br/>
-  <a href="https://learn.microsoft.com/api/credentials/share/es-es/JhonatanRodriguezCustodio-7265/4298E8369C4AE17A?sharingId=741F47D64D5A545A"><img alt="AI-900 Azure AI Fundamentals" src="https://img.shields.io/badge/AI--900-Azure%20AI%20Fundamentals-38BDF8?style=for-the-badge&logo=microsoft&logoColor=white&labelColor=0B1220"></a>
-  <a href="https://learn.microsoft.com/api/credentials/share/es-es/JhonatanRodriguezCustodio-7265/E334CB8251A8D2B8?sharingId=741F47D64D5A545A"><img alt="DP-900 Azure Data Fundamentals" src="https://img.shields.io/badge/DP--900-Azure%20Data%20Fundamentals-38BDF8?style=for-the-badge&logo=microsoft&logoColor=white&labelColor=0B1220"></a>
-</p>
-
-<p align="center"><sub>Every badge links to its verifiable credential on Microsoft Learn.</sub></p>
+| Exam | Certification | Level | Credential |
+|:---:|---|:---:|:---:|
+| <img alt="AI-103" src="https://img.shields.io/badge/AI--103-0078D4?style=for-the-badge&logo=microsoft&logoColor=white"> | **Azure AI Apps and Agents Developer** | Associate | [Verify ↗](https://learn.microsoft.com/api/credentials/share/es-es/JhonatanRodriguezCustodio-7265/D800CFD829806D6D?sharingId=741F47D64D5A545A) |
+| <img alt="AI-102" src="https://img.shields.io/badge/AI--102-0078D4?style=for-the-badge&logo=microsoft&logoColor=white"> | **Azure AI Engineer** | Associate | [Verify ↗](https://learn.microsoft.com/api/credentials/share/es-es/JhonatanRodriguezCustodio-7265/8AA0D450EA13F82D?sharingId=741F47D64D5A545A) |
+| <img alt="DP-100" src="https://img.shields.io/badge/DP--100-0078D4?style=for-the-badge&logo=microsoft&logoColor=white"> | **Azure Data Scientist** | Associate | [Verify ↗](https://learn.microsoft.com/api/credentials/share/es-es/JhonatanRodriguezCustodio-7265/1658F7EFBA648D3E?sharingId=741F47D64D5A545A) |
+| <img alt="AB-731" src="https://img.shields.io/badge/AB--731-8B5CF6?style=for-the-badge&logo=microsoft&logoColor=white"> | **AI Transformation Leader** | Professional | [Verify ↗](https://learn.microsoft.com/api/credentials/share/es-es/JhonatanRodriguezCustodio-7265/96D3C54F9F20FAE5?sharingId=741F47D64D5A545A) |
+| <img alt="AB-730" src="https://img.shields.io/badge/AB--730-8B5CF6?style=for-the-badge&logo=microsoft&logoColor=white"> | **AI Business Professional** | Professional | [Verify ↗](https://learn.microsoft.com/api/credentials/share/es-es/JhonatanRodriguezCustodio-7265/BA8640C8A29E6650?sharingId=741F47D64D5A545A) |
+| <img alt="AI-900" src="https://img.shields.io/badge/AI--900-38BDF8?style=for-the-badge&logo=microsoft&logoColor=white"> | **Azure AI Fundamentals** | Fundamentals | [Verify ↗](https://learn.microsoft.com/api/credentials/share/es-es/JhonatanRodriguezCustodio-7265/4298E8369C4AE17A?sharingId=741F47D64D5A545A) |
+| <img alt="DP-900" src="https://img.shields.io/badge/DP--900-38BDF8?style=for-the-badge&logo=microsoft&logoColor=white"> | **Azure Data Fundamentals** | Fundamentals | [Verify ↗](https://learn.microsoft.com/api/credentials/share/es-es/JhonatanRodriguezCustodio-7265/E334CB8251A8D2B8?sharingId=741F47D64D5A545A) |
 
 ## 💼 Experience
 
@@ -157,16 +153,6 @@ Enterprise solutions delivered at **Gestión de Sistemas** (Jan 2025 – present
 | **Jul 2024 – Dec 2024** | **Data Science & Analytics Jr** · Shintek · Spain | Improved object-detection precision and efficiency by 20% with YOLO and transfer learning. Built KPI dashboards and prepared data for predictive models. |
 
 **🎓 Community:** Mentor at the GenAI Hackathon Interbank (Nov 2025) and the Bago Hackathon on Azure AI Foundry (Jun 2026) · Instructor of an Azure AI Foundry workshop at Habitat (Aug 2026)
-
-## 📌 Featured repositories
-
-| Repository | Description |
-|---|---|
-| [CV-Jhonatan-Rodriguez-Custodio](https://github.com/JhonatanRC03/CV-Jhonatan-Rodriguez-Custodio) | My portfolio: Flask + vanilla JS with a streaming AI assistant on Azure AI Foundry, per-IP rate limiting and data-driven architecture diagrams. |
-| [taller-azure-ia](https://github.com/JhonatanRC03/taller-azure-ia) | Hands-on Azure AI workshop: step-by-step labs and a chat app. |
-| [fraud_detect](https://github.com/JhonatanRC03/fraud_detect) | Machine-learning model for fraud detection. |
-| [Credit-Scoring-Prediction](https://github.com/JhonatanRC03/Credit-Scoring-Prediction) | Credit-default probability model for a financial institution. |
-| [practica-mlops](https://github.com/JhonatanRC03/practica-mlops) · [despliegue-ml](https://github.com/JhonatanRC03/despliegue-ml) | MLOps practice and cloud deployment examples for ML models. |
 
 ---
 
